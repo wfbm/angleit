@@ -14,13 +14,10 @@ function App(): React.JSX.Element {
 
   return (
     <View style={styles.fullScreen}>
-    <Camera device={device} 
-            isActive={true} 
-            style={styles.fullScreen}> 
-    </Camera>
-
-    <Text style={styles.background}> { "text" }  </Text> 
-
+      <Camera device={device} 
+              isActive={true} 
+              style={styles.fullScreen}> 
+      </Camera>
     </View>
  );
 }
